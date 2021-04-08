@@ -23,7 +23,6 @@ const game = () => {
     // Initialisation : choose a gate for the car
     const c = randomInt(1, 3)
     gates[c - 1] = 'car'
-    console.log(gates)
     // Player choose a gate
     const g1 = Number(readlineSync.question('Choose a gate [1; 2; 3] : '))
     // Presentator choose a gate

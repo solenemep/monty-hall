@@ -22,10 +22,7 @@ if (process.argv.length !== 3) {
   process.exit(1)
 }
 
-// Log
-
 // Launch game
-
 const launch = () => {
   try {
 
